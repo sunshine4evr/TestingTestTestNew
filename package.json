@@ -4,7 +4,7 @@
   "description": "testing postman and newman",
   "main": "sketch.js",
   "scripts": {
-    "test": "newman run tests/TAPI.postman_collection.json -g tests/en.postman_globals.json"
+    "test": "newman run ./tests/TAPI.postman_collection.json -g ./tests/en.postman_globals.json"
   },
   "author": "sun",
   "license": "ISC",
