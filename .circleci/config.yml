@@ -18,6 +18,8 @@ jobs:
 
     steps:
       - checkout
+      - run: npm install
+      - run: newman run
 
       # Download and cache dependencies
       - restore_cache:
@@ -34,6 +36,6 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests!
-      - run: yarn test
+      - run: yarn tests
 
 
