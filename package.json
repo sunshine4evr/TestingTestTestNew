@@ -1,0 +1,14 @@
+{
+  "name": "testingtesttest",
+  "version": "1.0.0",
+  "description": "testing postman and newman",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "newman run tests/TAPI.postman_collection.json -g tests/en.postman_globals.json"
+  },
+  "author": "sun",
+  "license": "ISC",
+  "devDependencies": {
+    "newman": "^3.9.3"
+  }
+}
