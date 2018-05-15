@@ -1,0 +1,21 @@
+{
+  "id": "146e52f0-fd32-4814-8e58-8a3c0f4d5eb7",
+  "values": [
+    {
+      "key": "tkey",
+      "value": "c5dc455bbe5132c59e8e7a298bb76386",
+      "enabled": true,
+      "type": "text"
+    },
+    {
+      "key": "ttoken",
+      "value": "fcc3d7ed412276728d4f574bb77e4b8caa10b6cc2328f508951a9ffb054776e9",
+      "enabled": true,
+      "type": "text"
+    }
+  ],
+  "name": "My Workspace Globals",
+  "_postman_variable_scope": "globals",
+  "_postman_exported_at": "2018-05-13T03:04:03.736Z",
+  "_postman_exported_using": "Postman/6.0.10"
+}
