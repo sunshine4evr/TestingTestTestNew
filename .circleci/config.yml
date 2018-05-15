@@ -19,7 +19,7 @@ jobs:
     steps:
       - checkout
       - run: npm install
-      - run: newman run
+      - run: newman run "tests/TAPI.postman_collection.json"
 
       # Download and cache dependencies
       - restore_cache:
